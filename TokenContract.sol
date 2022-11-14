@@ -1,6 +1,6 @@
 pragma solidity ^0.8.9;
 
-contract SausageCoin {
+contract CoinName {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance; 
     
